@@ -38,7 +38,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [MiniProfiler](https://github.com/MiniProfiler/dotnet) | Install-Package MiniProfiler | [WIP](https://github.com/MiniProfiler/dotnet/issues/116) | [WIP](https://github.com/MiniProfiler/dotnet/issues/116) | [miniprofiler.com](http://miniprofiler.com)
 [Glimpse](https://github.com/Glimpse/Glimpse.Prototype) | Install-Package Glimpse -Pre | [Yes](http://blog.getglimpse.com/2015/11/19/installing-glimpse-v2-beta1) | [Yes](http://blog.getglimpse.com/2015/11/19/installing-glimpse-v2-beta1) | [getglimpse.com](http://getglimpse.com)
-Prefix | N/A (download installer) | [Yes](http://stackify.com/15-lessons-learned-while-converting-from-asp-net-to-net-core/) | [Yes](http://stackify.com/prefix-for-asp-net-core-rc1-is-available) | [prefix.io](http://www.prefix.io)
+Prefix | choco install prefix | [Yes](http://stackify.com/15-lessons-learned-while-converting-from-asp-net-to-net-core/) | [Yes](http://stackify.com/prefix-for-asp-net-core-rc1-is-available) | [stackify.com](https://www.stackify.com/prefix/)
 
 ## O/RMs / DBs
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -109,10 +109,10 @@ ASP.NET Core contains built-in [DI](https://docs.asp.net/en/latest/fundamentals/
 ## Logging
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
-[Serilog](https://github.com/serilog/serilog) |  | ? | ? | 
-[NLog](https://github.com/NLog/Nlog) |  |  |  | 
+[Serilog](https://github.com/serilog/serilog) |  | Yes | Yes | 
+[NLog](https://github.com/NLog/Nlog) |  | Yes | Yes | 
 [common.logging](https://github.com/net-commons/common-logging) |  |  |  | 
-[log4net](https://github.com/apache/log4net) |  |  |  | 
+[log4net](https://github.com/apache/log4net) |  | Yes |  | 
 [ELM](https://github.com/aspnet/Diagnostics) | Install-Package Microsoft.AspNetCore.Diagnostics.Elm  |  |  | 
 ASP.NET Core contains built-in [logging](https://docs.asp.net/en/latest/fundamentals/logging.html)
 
